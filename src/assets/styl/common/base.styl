@@ -1,0 +1,28 @@
+// Базовые классы (для тэгов)
+
+@import "../core/variables.styl";
+
+* {
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+
+	&:before,
+	&:after {
+		box-sizing: border-box;
+	}
+}
+
+html {
+	font-size: 10px;
+	overflow-x: hidden;
+}
+
+body {
+	font: 1.6rem/1.5 $fontPrimary;
+}
+
+a, button, input{
+	&:focus{
+		outline: 0;
+	}
+}
