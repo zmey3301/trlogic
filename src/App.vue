@@ -9,11 +9,11 @@
 import HeaderMenu from './components/header-menu'
 
 export default {
-	components: {HeaderMenu},
-	name: 'App',
-	created () {
-		this.$store.commit('loadCart')
-	}
+    components: {HeaderMenu},
+    name: 'App',
+    created () {
+        this.$store.commit('loadCart')
+    }
 }
 </script>
 
@@ -22,9 +22,9 @@ export default {
 @import './assets/styl/style.styl'
 
 body
-  font-family: $fontPrimary
-  margin: 0
-
+    font-family: $fontPrimary
+    margin: 0
+    padding-top: $heightHeader
 *
-  box-sizing: border-box
+    box-sizing: border-box
 </style>

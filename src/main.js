@@ -15,8 +15,8 @@ Vue.config.productionTip = false
 // Create store instance
 const store = new Vuex.Store(Store)
 export default new Vue({
-	el: '#app',
-	router,
-	store,
-	render: h => h(App)
+    el: '#app',
+    router,
+    store,
+    render: h => h(App)
 })
